@@ -1,10 +1,10 @@
-# 🧠 Object Detection in Mixed Reality (Meta Quest 3)
+# Object Detection in Mixed Reality (Meta Quest 3)
 
-> Transforming the physical world into an interactive digital space 🌍✨
+> Transforming the physical world into an interactive digital space 
 
 ---
 
-## 🚀 Overview
+## Overview
 
 This project brings **real-world object detection into Mixed Reality (MR)** using Meta Quest 3.
 
@@ -13,32 +13,32 @@ Unlike traditional AR, which overlays flat graphics, our system:
 - Detects **real-world objects**
 - Anchors **accurate 3D bounding boxes** in real time
 
-🎯 Goal: Build a **lightweight, real-time MR application** that works directly on-device without heavy computation.
+Goal: Build a **lightweight, real-time MR application** that works directly on-device without heavy computation.
 
 ---
 
-## 🧩 Problem Statement
+## Problem Statement
 
 True 3D spatial AI requires:
 - 9 Degrees of Freedom (position + rotation + scale)
-- Heavy computation ⚠️
+- Heavy computation 
 
-➡️ Running such models on VR headsets results in:
+Running such models on VR headsets results in:
 - ~2 FPS
 - Overheating
 
-💡 **Our Solution:** Efficient, optimized real-time detection using depth + geometry instead of heavy AI.
+**Our Solution:** Efficient, optimized real-time detection using depth + geometry instead of heavy AI.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
-### 🔹 Hardware
+### Hardware
 - Meta Quest 3
 - Hand Controllers
 - Laptop (RTX 4050)
 
-### 🔹 Software
+### Software
 - Unity 6
 - Meta SDK
 - OpenXR Plugin
@@ -47,9 +47,9 @@ True 3D spatial AI requires:
 
 ---
 
-## ⚙️ How It Works
+## How It Works
 
-### 🧠 Core Pipeline
+### Core Pipeline
 
 1. Capture real-world environment via passthrough camera  
 2. Extract depth using Meta Depth API  
@@ -61,26 +61,26 @@ True 3D spatial AI requires:
 
 ---
 
-## 🔬 Key Innovations
+## Key Innovations
 
-✨ **2.5D Approach**
+**2.5D Approach**
 - Reduced heavy 3D computation
 - Optimized for real-time performance
 
 ⚡ **Frame Skipping**
 - AI runs every few frames → saves power
 
-🎯 **Centroid Coincidence Targeting**
+**Centroid Coincidence Targeting**
 - Ensures bounding box perfectly aligns with object
 
-🧱 **Edge-aware Segmentation**
+**Edge-aware Segmentation**
 - Prevents detection from spilling into background
 
 ---
 
-## 🧪 Development Journey
+## Development Journey
 
-### 📌 Major Phases
+### Major Phases
 
 - Controller tracking & setup  
 - Depth API integration  
@@ -91,7 +91,7 @@ True 3D spatial AI requires:
 
 ---
 
-## ⚠️ Challenges We Solved
+## Challenges We Solved
 
 - Coordinate mismatch (image vs world space)
 - Passthrough rendering issues
@@ -101,23 +101,23 @@ True 3D spatial AI requires:
 
 ---
 
-## 🏆 Results
+## Results
 
-✅ Sub-millimeter spatial accuracy  
-✅ Real-time object segmentation  
-✅ Stable 3D bounding boxes  
-✅ High performance (VR-friendly FPS)
+- Sub-millimeter spatial accuracy
+- Real-time object segmentation  
+- Stable 3D bounding boxes  
+- High performance (VR-friendly FPS)
 
 ---
 
-## 📊 Observations
+## Observations
 
 - Depth is calculated using stereo vision (left & right eye)
 - Minimum depth = 0.1m due to hardware limitation
 
 ---
 
-## 🔮 Future Work
+## Future Work
 
 - Real-time object classification
 - Object labeling
@@ -126,14 +126,14 @@ True 3D spatial AI requires:
 
 ---
 
-## 👩‍💻 Team
+## Team
 
 - Aanchal Bhaskar Shukla  
 - Archie Singh  
 - Priyam Maheshbhai Patel  
 
-👨‍🏫 Guided by: Dr. Hardik Jain  
-🏫 IIT Jodhpur  
+Guided by: Dr. Hardik Jain  
+IIT Jodhpur  
 
 ---
 
