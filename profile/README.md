@@ -67,7 +67,7 @@ Running such models on VR headsets results in:
 - Reduced heavy 3D computation
 - Optimized for real-time performance
 
-⚡ **Frame Skipping**
+**Frame Skipping**
 - AI runs every few frames → saves power
 
 **Centroid Coincidence Targeting**
@@ -137,17 +137,17 @@ IIT Jodhpur
 
 ---
 
-## 💡 Final Thought
+## Final Thought
 
 > "We are not just detecting objects — we are teaching machines to understand reality."
 
 ---
 
-## ⭐ Support
+## Support
 
 If you like this project:
-- ⭐ Star the repo
-- 🍴 Fork it
-- 🤝 Contribute
+- Star the repo
+- Fork it
+- Contribute
 
 ---
